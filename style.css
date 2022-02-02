@@ -19,9 +19,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: normal;
-  background-color: #F2EDEB;
+  background-color: #F2EDEBDD;
   color:rgb(40,40,40);
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url("https://images.pexels.com/photos/8828681/pexels-photo-8828681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
 }
+
+html {
+  min-height:100%;
+  /* background:url(http://lorempixel.com/800/600/nature/2); */
+  background-size:cover;
+}
+
 
 h1 {
   font-size: 40px;
@@ -56,10 +64,11 @@ a:hover {
 .container {
   width: 500px;
   margin: 0 auto;
+  box-shadow:inset 0 0 0 2000px rgba(223, 22, 139, 0.3);
 }
 
 .card-white {
-  background-color: aliceblue;
+  background-color: rgb(230,230,230);
   margin: 20px auto;
   box-shadow: 5px 5px 24px rgb(0 0 20);
   text-align: center;
@@ -80,11 +89,11 @@ img.img-circle {
   list-style: none;
 }
 
-/* .list-inline {
+.list-inline {
   list-style: none;
   padding-left: 0px;
   list-style: none;
-} */
+}
 
 ul.list-inline a {
   font-size: 48px;
